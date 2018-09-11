@@ -10,6 +10,7 @@ import os
 
 # spark location on namenode server
 findspark.init("/usr/hdp/current/spark2-client")
+from datetime import timedelta
 import pyspark
 from pyspark.sql import HiveContext
 from pyspark.sql.functions import col, when
